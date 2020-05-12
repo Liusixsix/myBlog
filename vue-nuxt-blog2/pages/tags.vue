@@ -44,6 +44,11 @@ export default {
       ]
     };
   },
+   head(){
+    return {
+      title:'我的标签'
+    }
+  },
   methods: {
     sizeRandom() {
       let size =  Math.floor(Math.random() * 26 + 13);

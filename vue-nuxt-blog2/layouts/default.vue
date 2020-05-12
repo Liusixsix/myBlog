@@ -39,8 +39,10 @@ export default {
       clipped: false,
       drawer: true,
       right: true,
+      NumObj: {}
     };
   },
+
   mounted() {
     window.L2Dwidget.init({
       pluginRootPath: "static/live2dw/",
@@ -65,9 +67,9 @@ export default {
   box-sizing: border-box;
   position: relative;
 }
-#main-inner{
+#main-inner {
   margin: 0 auto;
-  margin-top:90px;
+  margin-top: 90px;
   width: 700px;
 }
 @media (min-width: 1600px) {

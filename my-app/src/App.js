@@ -12,7 +12,7 @@ import { BrowserRouter as Router, Link, Route, Switch, Redirect } from 'react-ro
 import PrivateRoute from './utils/Auth'
 import Login from './views/login'
 import Admin from './views/layout/admin'
-
+import BulletChat from './views/bulletChat'
 class App extends Component {
     state = {
         list: [

@@ -31,7 +31,7 @@
             <span class="leancloud-visitors-count">{{item.Browse}}</span>
           </span>
         </div>
-        <div v-html="item.content"></div>
+        <div class="post-content" v-html="item.content"></div>
         <div class="post-button">
           <nuxt-link :to="/details/+item._id">阅读全文 »</nuxt-link>
         </div>
@@ -56,7 +56,7 @@ export default {
       blogList: res.data
     };
   },
-
+ 
   methods: {
     filterText(text) {
       if (this.converter) {
@@ -155,5 +155,11 @@ export default {
       color: #555;
     }
   }
+}
+.post-content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
 }
 </style>

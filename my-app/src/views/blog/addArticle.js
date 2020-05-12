@@ -4,7 +4,7 @@ import BraftEditor from 'braft-editor'
 // 引入编辑器样式
 import 'braft-editor/dist/index.css'
 import axios from '../../utils/axios'
-
+const { Option } = Select;
 class AddArticle extends Component {
     formRef = React.createRef();
     constructor(props) {
@@ -104,6 +104,12 @@ class AddArticle extends Component {
                             rules={[{ required: true, message: '请先添加分类' }]}
                         >
                             <Input></Input>
+                        </Form.Item>
+
+                        <Form.Item label='标签' name='tag'>
+                            <Select style={{ width: '150px' }}>
+                                <Select.Option value="Demo">Demo</Select.Option>
+                            </Select>
                         </Form.Item>
                         <Form.Item
 

@@ -1,0 +1,19 @@
+.block{
+    position: absolute;
+    animation: chat 5s linear 0s;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+@keyframes chat{
+    from{
+        left: 100%;
+        transform: translateX(0);
+    }
+    to{
+        left: 0;
+        transform: translateX(-100%);
+    }
+}

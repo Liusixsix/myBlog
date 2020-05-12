@@ -8,6 +8,7 @@ import {
 
 import Content from './content'
 import Menu from './menu'
+import Breadcrumb from './Breadcrumb'
 const { Header, Sider } = Layout;
 
 
@@ -33,8 +34,6 @@ class Admin extends Component {
     })
   }
 
-
-
   render() {
     return (
       <Layout style={{ minHeight: '100vh' }}>
@@ -48,6 +47,7 @@ class Admin extends Component {
               className: 'trigger',
               onClick: this.toggle,
             })}
+            <Breadcrumb></Breadcrumb>
           </Header>
 
           <Content></Content>

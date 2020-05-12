@@ -22,7 +22,7 @@ function KFormCreate(Comp) {
         validateField = field => {
             const rules = this.options[field].rules;
             // 任意一个失败返回false
-            const ret = ! rules.some(rule => {
+            const ret = !rules.some(rule => {
                 if (rule.required) {
                     if (!this.state[field]) {
                         // 校验失败

@@ -9,7 +9,7 @@ function PrivateRoute({ component: Comp, ...rest }) {
     }
     return (
         <Route {...rest} render={
-            props => isLogin ? (<Comp />) : (<Redirect to={{ pathname: '/login', state: props.location.pathname }} />)}></Route>
+            props => isLogin ? (<Comp />) : (<Redirect to={{ pathname: '/', state: props.location.pathname }} />)}></Route>
     )
 }
 

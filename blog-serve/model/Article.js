@@ -17,10 +17,12 @@ const schema = new mongoose.Schema({
         type: String,
         default: ''
     },
-    tag: { //标签
-        type: mongoose.SchemaTypes.ObjectId,
-        ref: 'Tags'
-    }
+    tag: [
+        { //标签
+            type: mongoose.SchemaTypes.ObjectId,
+            ref: 'Tags'
+        }
+    ]
 }, {
     timestamps: { createdAt: 'created', updatedAt: 'updated' }
 })

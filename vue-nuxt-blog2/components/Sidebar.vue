@@ -5,7 +5,7 @@
     </div>
     <p class="site-author-name">Liu Six Six</p>
     <p class="description">卖报的小行家</p>
-
+ 
     <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <nuxt-link to="/">
@@ -26,13 +26,20 @@
         </nuxt-link>
       </div>
     </nav>
+      
   </div>
 </template>
 
 <script>
 export default {
   data() {
-    return {};
+    return {
+      NumObj: {}
+    };
+  },
+
+  mounted() {
+   
   }
 };
 </script>

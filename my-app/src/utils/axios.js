@@ -2,8 +2,9 @@ import axios from 'axios'
 
 axios.defaults.baseURL = 'http://localhost:3000/';
 
+
 axios.interceptors.request.use(function (config) {
-  config.headers.token = localStorage.getItem('token') || ''
+  config.headers['Authorization'] = 'Bearer ' + localStorage.getItem('token') || ''
   return config
 }, function (error) {
   // 对响应错误做点什么

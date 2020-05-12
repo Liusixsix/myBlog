@@ -8,7 +8,7 @@
 
       <ul class="category-list">
         <li class="category-list-item" v-for="(item,index) in categoryList" :key="index">
-          <nuxt-link to>{{item.name}}</nuxt-link>
+          <nuxt-link :to="/catedetails/+item.name">{{item.name}}</nuxt-link>
           <span class="category-list-count">{{item.count}}</span>
         </li>
       </ul>
@@ -21,13 +21,18 @@ export default {
   name: "categoryies",
   data() {
     return {
-      categoryList: [
-        { name: "Css", count: "6" },
-        { name: "Http", count: "6" },
-        { name: "javascript", count: "6" },
-        { name: "node", count: "6" },
-        { name: "three", count: "6" }
-      ]
+      categoryList: []
+    };
+  },
+  head() {
+    return {
+      title: "博客分类"
+    };
+  },
+  async asyncData({ $axios }) {
+    let { data } = await $axios.get("/blog/getCateCount");
+    return {
+      categoryList: data
     };
   }
 };

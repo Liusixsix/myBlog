@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="zho">
+  <head>
+    <meta content="f08e831d-0ffe-4cf7-94a1-06dceee3b6f4" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (2.0.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>别对我说谎:练就一双精确识人眼</text>
+  </docTitle>
+  <navMap>
+    <navPoint class="chapter" id="num_1" playOrder="1">
+      <navLabel>
+        <text>第一部分 识别谎言</text>
+      </navLabel>
+      <content src="index_split_005.html"/>
+      <navPoint class="chapter" id="num_2" playOrder="2">
+        <navLabel>
+          <text>第一章 谎言的流行</text>
+        </navLabel>
+        <content src="index_split_006.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_3" playOrder="3">
+        <navLabel>
+          <text>第二章 欺骗要素——谁在欺骗，什么时候欺骗，为什么欺骗</text>
+        </navLabel>
+        <content src="index_split_007.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_4" playOrder="4">
+        <navLabel>
+          <text>第三章 观察面部表情</text>
+        </navLabel>
+        <content src="index_split_008.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_5" playOrder="5">
+        <navLabel>
+          <text>第四章 观察身体</text>
+        </navLabel>
+        <content src="index_split_009.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_6" playOrder="6">
+        <navLabel>
+          <text>第五章 分析语言</text>
+        </navLabel>
+        <content src="index_split_010.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_7" playOrder="7">
+        <navLabel>
+          <text>第六章 基本会谈方法</text>
+        </navLabel>
+        <content src="index_split_011.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_8" playOrder="8">
+      <navLabel>
+        <text>第二部分 建立信任</text>
+      </navLabel>
+      <content src="index_split_012.html"/>
+      <navPoint class="chapter" id="num_9" playOrder="9">
+        <navLabel>
+          <text>第七章 高风险谎言定位</text>
+        </navLabel>
+        <content src="index_split_013.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_10" playOrder="10">
+        <navLabel>
+          <text>第八章 欺诈审计</text>
+        </navLabel>
+        <content src="index_split_014.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_11" playOrder="11">
+        <navLabel>
+          <text>第九章 建立智囊团</text>
+        </navLabel>
+        <content src="index_split_015.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_12" playOrder="12">
+        <navLabel>
+          <text>第十章 总述</text>
+        </navLabel>
+        <content src="index_split_016.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_13" playOrder="13">
+      <navLabel>
+        <text>附录1 将BASIC方法应用到实践中组织对话获取真相的指南</text>
+      </navLabel>
+      <content src="index_split_017.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_14" playOrder="14">
+      <navLabel>
+        <text>附录2 测试我们识别谎言的技巧</text>
+      </navLabel>
+      <content src="index_split_018.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_15" playOrder="15">
+      <navLabel>
+        <text>致谢</text>
+      </navLabel>
+      <content src="index_split_019.html"/>
+    </navPoint>
+  </navMap>
+</ncx>

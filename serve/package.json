@@ -1,0 +1,26 @@
+{
+  "name": "blog-serve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "adm-zip": "^0.4.14",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-cors": "^0.0.16",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^3.6.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.9.6",
+    "xml2js": "^0.4.23"
+  }
+}

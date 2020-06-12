@@ -98,6 +98,7 @@ export default {
 .container-inner {
   margin: 0 auto;
   line-height: 2;
+
   & li:not(:first-child) {
     margin-top: 120px;
   }

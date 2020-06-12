@@ -3,10 +3,19 @@ import './index.less'
 
 const list = ['坦克', '飞机', '小黄书', '粑粑', '猫屎咖啡', '复读机', '备胎', '工具人', '奥利给', '战斗机']
 
-function Loading (){
+function Loading() {
     return (
-        <div className='loading-wrap'>
-            <div className='concentric_round'></div>
+        <div className="loading">
+            <div className='spinner'></div>
+            <div class="spinner2">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+            <div class="spinner3">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+                <div class="dot3"></div>
+            </div>
         </div>
     )
 }
@@ -88,21 +97,21 @@ class Luck extends Component {
         return (
             <div>
 
-            <div className='card-wrap'>
-                <div>{list[MathNum]}</div>
-                <div className='turntable'>
-                    <div
-                        className='luck-wrap'
-                        style={{ transform: `rotate(${deg}deg)` }}
+                <div className='card-wrap'>
+                    <div>{list[MathNum]}</div>
+                    <div className='turntable'>
+                        <div
+                            className='luck-wrap'
+                            style={{ transform: `rotate(${deg}deg)` }}
                         >
-                        <canvas id="canvas" width="300" height="300">抱歉！浏览器不支持。</canvas>
+                            <canvas id="canvas" width="300" height="300">抱歉！浏览器不支持。</canvas>
+                        </div>
+                        <a className={['btn', flag ? 'disabled' : ''].join(' ')} onClick={this.start} href=""></a>
                     </div>
-                    <a className={['btn', flag ? 'disabled' : ''].join(' ')} onClick={this.start} href=""></a>
                 </div>
-            </div>
 
-            <Loading></Loading>
-          </div>
+                <Loading></Loading>
+            </div>
 
         );
     }

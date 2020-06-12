@@ -19,6 +19,8 @@
       </v-navigation-drawer>
     </v-content>
 
+   
+
     <div class="scroll-top" @click="scrollTop" :class="{'hidde':scrollCount<=0}">
       <i class="iconfont icon-xiangshang"></i>
       <span>{{scrollCount}}%</span>
@@ -109,6 +111,7 @@ export default {
     width: 900px;
   }
 }
+
 .scroll-top {
   position: fixed;
   right: 30px;

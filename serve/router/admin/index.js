@@ -10,11 +10,13 @@ const Result = require('../../utils/Result')
 
 const secret = 'token'
 
+
 // 获取所有分类
 router.get('/', async (ctx, next) => {
     const model = await Category.find()
     ctx.body = model
 })
+
 
 
 // 登录
